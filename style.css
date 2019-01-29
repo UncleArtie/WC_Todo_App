@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+button {    
+    border-radius: 5px;
+}
+
+#main li {
+    font-size: 1em;
+    margin: 10px;
+    padding: 2px;
+} 
+
+#main li .deleteBtn {
+    margin-left: 10px;
+}
