@@ -5,15 +5,72 @@ body {
     color: black;
 }
 
-button {    
+h1 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 56px;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 25%;
+    grid-template-areas: "s""c""d""e";
+    grid-gap: 1rem;
+}
+
+#toggleAllBtn {
+    grid-area: s;
+    grid-column: 1;
     border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+#addBtn {
+    grid-area: c;
+    grid-column: 1;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+#changeBtn {
+    grid-area: d;
+    grid-column: 1;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+#toggleATodoBtn {
+    grid-area: e;
+    grid-column: 1;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+input {
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 #main li {
     font-size: 1em;
     margin: 10px;
     padding: 2px;
-} 
+}
 
 #main li .deleteBtn {
     margin-left: 10px;

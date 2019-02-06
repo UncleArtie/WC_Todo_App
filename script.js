@@ -74,7 +74,7 @@ $(document).ready(function () {
         if (todo.completed === true) {
           todoTextWithCompletion = '(x)' + ' ' + todo.todoText;
         } else {
-          todoTextWithCompletion = '( )' + ' ' +  todo.todoText;
+          todoTextWithCompletion = '( )' + ' ' + todo.todoText;
         }
         todoLi.id = position;
         todoLi.textContent = todoTextWithCompletion;
